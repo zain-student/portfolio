@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -48,15 +44,6 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://www.instagram.com/unfav.zain_malik"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer">
-                <AiFillInstagram />
-              </a>
-            </li> */}
           </ul>
         </Col>
       </Row>
