@@ -1,29 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
-import Go from "../../Assets/TechIcons/go.svg";
+
 import C from "../../Assets/TechIcons/C++.svg";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
-import Node from "../../Assets/TechIcons/Node.svg";
-import ReactIcon from "../../Assets/TechIcons/React.svg";
-import HaskellIcon from "../../Assets/TechIcons/Haskell.svg";
-import Java from "../../Assets/TechIcons/Java.svg";
-import Python from "../../Assets/TechIcons/Python.svg";
 import Typescript from "../../Assets/TechIcons/Typescript.svg";
+import ReactIcon from "../../Assets/TechIcons/React.svg";
+import Redux from "../../Assets/TechIcons/Redux.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Firebase from "../../Assets/TechIcons/Firebase.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
-import Docker from "../../Assets/TechIcons/Docker.svg";
-import Mongo from "../../Assets/TechIcons/Mongo.svg";
-import SQL from "../../Assets/TechIcons/SQL.svg";
-import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
-import Redux from "../../Assets/TechIcons/Redux.svg";
-import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
-import MUI from "../../Assets/TechIcons/MUI.svg";
+import Java from "../../Assets/TechIcons/Java.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
-import cli from "../../Assets/TechIcons/cli.png";
-import expo from "../../Assets/TechIcons/expo.png";
 
 function Techstack() {
   return (
@@ -61,15 +47,6 @@ function Techstack() {
         <img src={Java} alt="java" />
         <div className="tech-icons-text">Java</div>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <img src={expo} alt="expo" />
-        <div className="tech-icons-text">Expo</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={cli} alt="cli" />
-        <div className="tech-icons-text">CLI</div>
-      </Col> */}
-
       <Col xs={4} md={2} className="tech-icons">
         <img src={Postman} alt="Postman" />
         <div className="tech-icons-text">Postman</div>
